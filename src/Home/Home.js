@@ -1,13 +1,11 @@
 import React from 'react';
 import Benner from './Benner';
-import ExtraSection from './ExtraSection';
-import ServiceSec from './ServiceSec';
+import ExtraSection from '../Home/ExtraSection';
 
 const Home = () => {
     return (
         <div className='container mx-auto'>
             <Benner></Benner>
-            <ServiceSec></ServiceSec>
             <ExtraSection></ExtraSection>
         </div>
     );

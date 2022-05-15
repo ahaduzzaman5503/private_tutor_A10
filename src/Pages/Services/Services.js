@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import ServiceInfo from './ServiceInfo';
+import { useEffect, useState } from "react";
+import ServiceInfo from "../Services/ServiceInfo";
 
-const ServiceSec = () => {
+
+
+const Services = () => {
     const [services, setService] = useState([]);
 
     useEffect( () => {
@@ -11,8 +13,8 @@ const ServiceSec = () => {
          
     },[])
     return (
-        <div >
-           <div className='text-center text-5xl font-bold text-primary py-5'>
+        <div className="container mx-auto py-10" >
+           <div className='text-center text-5xl font-bold text-primary py-3'>
                <h1> Private Classes</h1>
            </div>
            
@@ -28,4 +30,4 @@ const ServiceSec = () => {
     );
 };
 
-export default ServiceSec;
+export default Services;
