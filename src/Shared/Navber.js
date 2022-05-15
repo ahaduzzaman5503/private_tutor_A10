@@ -4,7 +4,7 @@ import PrivateTutorlogo from "../assets/Private Tutor.png";
 
 const Navber = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <div className="navbar bg-primary text-primary-content flex justify-around">
                 <div >
                     <Link to="/" className="btn btn-ghost normal-case text-xl">
@@ -12,7 +12,7 @@ const Navber = () => {
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-6 text-lg font-bold">
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/home">Home</Link></li>
                     <li><Link to="/services">Services</Link></li>
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/aboutme">About Me</Link></li>

@@ -3,7 +3,7 @@
         "_id": 1,
         "name": "General Math Class 5",
         "price": 200,
-        "short_description": "Class Five private course, you will learn all lessons for General Mathematics class 5 (Five). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
+        "short_description": "Class Five private  , you will learn all lessons for General Mathematics class 5 (Five). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
         "image": "https://www.sohopathi.com/wp-content/uploads/2018/07/General-Math-Class-5.jpg"
     },
     
@@ -11,35 +11,35 @@
         "_id": 2,
         "name": "General Math Class 6",
         "price": 300,
-        "short_description": "Class Six private course, you will learn all lessons for General Mathematics class 6 (Six). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
+        "short_description": "Class Six private  , you will learn all lessons for General Mathematics class 6 (Six). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
         "image": "https://cdn.sohopathi.com/wp-content/uploads/2018/07/General-Math-Class-6.jpg"
     },
     {
         "_id": 3,
         "name": "General Math Class 7",
         "price": 350,
-        "short_description": "Class Seven private course, you will learn all lessons for General Mathematics class 7 (Seven). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
+        "short_description": "Class Seven private  , you will learn all lessons for General Mathematics class 7 (Seven). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
         "image": "https://bdexamresults.com/wp-content/uploads/2021/12/NCTB-Class-7-Math-Book-PDF.jpg"
     },
     {
         "_id": 4,
         "name": "General Math Class 8",
         "price": 400,
-        "short_description": "Class Eight private course, you will learn all lessons for General Mathematics class 8 (Eight). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
+        "short_description": "Class Eight private  , you will learn all lessons for General Mathematics class 8 (Eight). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
         "image": "https://1.bp.blogspot.com/-cE0m0RCTnUI/Xh3FVheJwNI/AAAAAAAAFUA/0Lx-oPGp14UffgYp3FASiDZQvnFHQAEcACLcBGAsYHQ/s16000/Screenshot_20200114_164149.jpg"
     },
     {
         "_id": 5,
         "name": "General Math Class 9",
         "price": 450,
-        "short_description": "Class Nine private course, you will learn all lessons for General Mathematics class 9 (Nine). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
+        "short_description": "Class Nine private  , you will learn all lessons for General Mathematics class 9 (Nine). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
         "image": "https://4.bp.blogspot.com/-eV6S0ht0un4/Vz3S-PWSa4I/AAAAAAAAAjE/7-1r-y3Bh8wWdfh-AoaOn6pppCmrcJUegCLcB/s1600/Math-1.jpg"
     },
     {
         "_id": 6,
         "name": "General Math Class 10",
         "price": 500,
-        "short_description": "Class Ten private course, you will learn all lessons for General Mathematics class 10 (Ten). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
+        "short_description": "Class Ten private  , you will learn all lessons for General Mathematics class 10 (Ten). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
         "image": "https://4.bp.blogspot.com/-eV6S0ht0un4/Vz3S-PWSa4I/AAAAAAAAAjE/7-1r-y3Bh8wWdfh-AoaOn6pppCmrcJUegCLcB/s1600/Math-1.jpg"
     }
 
