@@ -27,7 +27,7 @@ const Navber = () => {
                     <li><Link to="/services">Services</Link></li>
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/aboutme">About Me</Link></li>
-                    <li>{user ? <a class="btn btn-ghost normal-case text-xl" onClick={logout}>Sign Out</a> 
+                    <li>{user ? <a className="btn btn-ghost normal-case text-xl" onClick={logout}>Sign Out</a> 
                                 : <Link to="/login">Log In</Link>}</li>
                     </ul>
                 </div>
