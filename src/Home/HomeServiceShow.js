@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ServiceInfo = ({service, serviceInfoHandle}) => {
-    const {name, price, short_description, image, _id} = service;
+const HomeServiceShow = ({homeService, goServicePageHandle}) => {
+    const {name, price, short_description, image} = homeService;
     return (
         <div className='container mx-auto'>
             <div className="autohero p-5 bg-violet-50  rounded-lg">
@@ -15,7 +15,7 @@ const ServiceInfo = ({service, serviceInfoHandle}) => {
                         <p className="py-3">{short_description}</p>
                         <h1 className="text-xl font-bold pb-2 ml-10"> Price: {price} TK</h1>
                         <button  className="btn btn-primary ml-10">Admisstion</button>
-                        {/* onClick={serviceInfoHandle(_id)} */}
+                        {/* onClick={goServicePageHandle()} */}
                     </div>
                 </div>
             </div>
@@ -23,4 +23,4 @@ const ServiceInfo = ({service, serviceInfoHandle}) => {
     );
 };
 
-export default ServiceInfo;
+export default HomeServiceShow;

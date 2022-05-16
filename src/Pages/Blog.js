@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div>
-            <div tabIndex="0" className="collapse collapse-open border border-base-300 bg-base-100 rounded-box container mx-auto mt-5"> 
+            <div tabIndex="0" className="collapse collapse-open border border-base-300 bg-blue-100 rounded-box container mx-auto mt-5"> 
                 <div className="collapse-title text-xl font-medium">
                 What is the difference between Authentication and Authorization?
                 </div>
@@ -17,7 +17,7 @@ const Blog = () => {
                         Authentication is used to verify that users really are who they represent themselves to be. Once this has been confirmed, authorization is then used to grant the user permission to access different levels of information and perform specific functions, depending on the rules established for different types of users.</p>
                 </div>
             </div>
-            <div tabIndex="0" className="collapse collapse-open border border-base-300 bg-base-100 rounded-box container mx-auto mt-5"> 
+            <div tabIndex="0" className="collapse collapse-open border border-base-300 bg-blue-100 rounded-box container mx-auto mt-5"> 
                 <div className="collapse-title text-xl font-medium">
                 Why are you using firebase?
                 </div>
@@ -27,7 +27,7 @@ const Blog = () => {
                         Authentication Firebase Authentication makes it easy for developers to build secure authentication systems and enhances the sign-in and onboarding experience for users. This feature offers a complete identity solution, supporting email and password accounts, phone auth, as well as Google, Facebook, GitHub, Twitter login, and more..</p>
                 </div>
             </div>
-            <div tabIndex="0" className="collapse collapse-open border border-base-300 bg-base-100 rounded-box container mx-auto my-5"> 
+            <div tabIndex="0" className="collapse collapse-open border border-base-300 bg-blue-100 rounded-box container mx-auto my-5"> 
                 <div className="collapse-title text-xl font-medium">
                 What other options do you have to implement authentication?
                 </div>
@@ -63,7 +63,7 @@ const Blog = () => {
                         Deployd is an effective open-source deployment and API design platform that empowers you to build web and mobile applications without hassles.</p>
                 </div>
             </div>
-            <div tabIndex="0" className="collapse collapse-open border border-base-300 bg-base-100 rounded-box container mx-auto my-5"> 
+            <div tabIndex="0" className="collapse collapse-open border border-base-300 bg-blue-100 rounded-box container mx-auto my-5"> 
                 <div className="collapse-title text-xl font-medium">
                 What other services does firebase provide other than authentication?
                 </div>

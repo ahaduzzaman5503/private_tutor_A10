@@ -1,19 +1,17 @@
-# Project Name :
+# Project Name : Private Tutor.
 ***
-# Private Tutor.
 
-# Live Website Link :
+# Live Website Link : I will put Link here
 ***
-# I will put Link here
 
 ## About the Private Tutor Project:
 ***
 A list of technologies which used within this project:
-* [Private Tutor Website for Students]
-* [Student can Admisstion Online or Offline]
-* [This Private Tutor for Class (Five to Ten) Classes]
-* [Students can select There Time]
-* [They get all update from this website]
+* Private Tutor Website for Students
+* Student can Admisstion Online or Offline
+* This Private Tutor for Class (Five to Ten) Classes
+* Students can select There Time
+* They get all update from this website
 
 
 ## Technologies and Framework List:

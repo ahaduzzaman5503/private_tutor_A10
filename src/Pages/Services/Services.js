@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
+// import { useNavigate } from "react-router-dom";
 import ServiceInfo from "../Services/ServiceInfo";
 
 
 
 const Services = () => {
     const [services, setService] = useState([]);
+    // const navigate = useNavigate();
 
     useEffect( () => {
         fetch('Services.json')
@@ -12,6 +14,10 @@ const Services = () => {
         .then(data => setService(data));
          
     },[])
+
+    // const serviceInfoHandle = (_id) => {
+    //     navigate('/addmissioncheckout/:_id');
+    // }
     return (
         <div className="container mx-auto py-10" >
            <div className='text-center text-5xl font-bold text-primary py-3'>
@@ -23,6 +29,7 @@ const Services = () => {
                services.map(service => <ServiceInfo
                 key={service._id}
                 service={service}
+                // serviceInfoHandle={serviceInfoHandle()}
                ></ServiceInfo>)
             }
             </div>
