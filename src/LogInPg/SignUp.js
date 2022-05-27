@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from "../firebase.init";
 import { useForm } from "react-hook-form";
+import { sendEmailVerification, sendPasswordResetEmail } from 'firebase/auth';
 
 const SignUp = () => {
     const [signInWithGoogle, googleUser, googleLoading, googleError] = useSignInWithGoogle(auth);
@@ -35,11 +36,22 @@ const SignUp = () => {
     console.log(googleUser)
   }
 
+  
+  const emailVarify = () => {
+    sendEmailVerification(auth.currentUser)
+    .then(() =>{
+      console.log("Email Varification Sent")
+    })
+  }
+
+
   const onSubmit = async data => {
   await createUserWithEmailAndPassword(data.email, data.password);
   await updateProfile({ displayName: data.name });
   console.log('update done');
+  emailVarify();
   navigate('/services');
+
 
   }
     return (

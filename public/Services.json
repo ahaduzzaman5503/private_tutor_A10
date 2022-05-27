@@ -1,6 +1,7 @@
 [
     {
         "_id": 1,
+        "classId": "class_five",
         "name": "General Math Class 5",
         "price": 200,
         "short_description": "Class Five private  , you will learn all lessons for General Mathematics class 5 (Five). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
@@ -9,6 +10,7 @@
     
     {
         "_id": 2,
+        "classId": "class_six",
         "name": "General Math Class 6",
         "price": 300,
         "short_description": "Class Six private  , you will learn all lessons for General Mathematics class 6 (Six). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
@@ -16,6 +18,7 @@
     },
     {
         "_id": 3,
+        "classId": "class_seven",
         "name": "General Math Class 7",
         "price": 350,
         "short_description": "Class Seven private  , you will learn all lessons for General Mathematics class 7 (Seven). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
@@ -23,6 +26,7 @@
     },
     {
         "_id": 4,
+        "classId": "class_eight",
         "name": "General Math Class 8",
         "price": 400,
         "short_description": "Class Eight private  , you will learn all lessons for General Mathematics class 8 (Eight). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
@@ -30,6 +34,7 @@
     },
     {
         "_id": 5,
+        "classId": "class_nine",
         "name": "General Math Class 9",
         "price": 450,
         "short_description": "Class Nine private  , you will learn all lessons for General Mathematics class 9 (Nine). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",
@@ -37,6 +42,7 @@
     },
     {
         "_id": 6,
+        "classId": "class_ten",
         "name": "General Math Class 10",
         "price": 500,
         "short_description": "Class Ten private  , you will learn all lessons for General Mathematics class 10 (Ten). The same math will be shown at different angles. As a bonus, you will learn some special tips and tricks.",

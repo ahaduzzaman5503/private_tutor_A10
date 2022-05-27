@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomeServiceShow = ({homeService, goServicePageHandle}) => {
     const {name, price, short_description, image} = homeService;
@@ -14,8 +15,7 @@ const HomeServiceShow = ({homeService, goServicePageHandle}) => {
                         <h1 className="text-2xl font-bold">{name}</h1>
                         <p className="py-3">{short_description}</p>
                         <h1 className="text-xl font-bold pb-2 ml-10"> Price: {price} TK</h1>
-                        <button  className="btn btn-primary ml-10">Admisstion</button>
-                        {/* onClick={goServicePageHandle()} */}
+                        <Link to="services"> <button  className="btn btn-primary ml-10">Admisstion</button> </Link>
                     </div>
                 </div>
             </div>

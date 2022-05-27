@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const ServiceInfo = ({service, serviceInfoHandle}) => {
-    const {name, price, short_description, image, _id} = service;
+const ServiceInfo = ({service}) => {
+    const {name, price, short_description, image, classId} = service;
     return (
         <div className='container mx-auto'>
             <div className="autohero p-5 bg-violet-50  rounded-lg">
@@ -11,11 +12,11 @@ const ServiceInfo = ({service, serviceInfoHandle}) => {
                     </div>
 
                     <div>
+                        {classId}
                         <h1 className="text-2xl font-bold">{name}</h1>
                         <p className="py-3">{short_description}</p>
                         <h1 className="text-xl font-bold pb-2 ml-10"> Price: {price} TK</h1>
-                        <button  className="btn btn-primary ml-10">Admisstion</button>
-                        {/* onClick={serviceInfoHandle(_id)} */}
+                        <Link to={classId} ><button  className="btn btn-primary ml-10">Admisstion Now</button></Link>
                     </div>
                 </div>
             </div>

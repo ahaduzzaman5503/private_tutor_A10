@@ -11,6 +11,7 @@ import NotFound from './Pages/NotFound';
 import SignUp from './LogInPg/SignUp';
 import RequirAuth from "./LogInPg/RequirAuth";
 import AddmissonInfo from './Pages/Services/AddmissonInfo';
+import Service from './Pages/Services/Service';
 
 function App() {
   return (
@@ -18,14 +19,9 @@ function App() {
      <Navber></Navber>
      <Routes>
        <Route path='/' element={<Home></Home>}></Route>
-       <Route path='/home' element={<Home></Home>}></Route>
-       <Route path='/services'
-        element={
-        <RequirAuth>
-          <Services></Services>
-        </RequirAuth>
-      }></Route>
-      <Route path='/addmissioncheckout/:_id' element={<AddmissonInfo></AddmissonInfo>}></Route>
+        <Route path='/services'element={<RequirAuth><Services></Services></RequirAuth>}></Route>
+        <Route path='services/:classId' element={<RequirAuth> <Service></Service> </RequirAuth>} ></Route>
+        <Route path='/addmissioncheckout/:_id' element={<AddmissonInfo></AddmissonInfo>}></Route>
        <Route path='/blog' element={<Blog></Blog>}></Route>
        <Route path='/aboutme' element={<AboutMe></AboutMe>}></Route>
        <Route path='/login' element={<Login></Login>}></Route>

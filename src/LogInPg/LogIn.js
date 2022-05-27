@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from "../firebase.init";
 import { useForm } from "react-hook-form";
+import { sendPasswordResetEmail } from 'firebase/auth';
 
 
 const Login = () => {
@@ -15,6 +16,7 @@ const Login = () => {
     epLoading,
     epError
   ] = useSignInWithEmailAndPassword(auth);
+
 
   let singInError;
   /*  Back to appointment route after login */
@@ -29,6 +31,7 @@ useEffect(() =>{
   }
 },[googleUser, epUser, from, navigate ]);
 
+
 if(epLoading || googleLoading){
   return <button className="btn btn-success text-xl loading container mx-auto flex justify-center items-center w-48 mt-40">loading</button>
 }
@@ -41,6 +44,13 @@ if(googleError || epError){
   console.log(data);
   signInWithEmailAndPassword(data.email, data.password);
   }
+
+  const passwordResetHandler = () => {
+    sendPasswordResetEmail(auth)
+    .then(() =>{
+      console.log('email sent')
+    });
+  };
 
     return (
         <div className='flex justify-center items-center h-screen container mx-auto'>
@@ -104,9 +114,12 @@ if(googleError || epError){
                       {singInError}
                       <button type='submit' value="Sign Up"  className="btn btn-dark w-full">Log In</button>
                  </form>
+                 <button onClick={passwordResetHandler} className="btn btn-outline btn-info">Forget Password? 
+                 <a className=" pl-5 link link-secondary"> Click to reset</a></button>
+
 
                  <div className=' container text-center mt-3'>
-                      <span className='text-xl mr-1'>New to Doctors Portal?</span>
+                      <span className='text-xl mr-1'>New to Private turor?</span>
                       <Link to="/signup" className="link link-hover text-success text-xl">Create new account</Link>
                  </div>
 

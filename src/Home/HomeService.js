@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
 import HomeServiceShow from './HomeServiceShow';
 
 const HomeService = () => {
     const [homeServices, setHomeService] = useState([]);
-    // const navigate = useNavigate();
 
     useEffect( () => {
         fetch('HomeServiceThree.json')
@@ -12,11 +10,6 @@ const HomeService = () => {
         .then(data => setHomeService(data));
          
     },[])
-
-    // const goServicePageHandle = () => {
-    //     // navigate('/services');
-    //     navigate('/nonono')
-    // }
 
     return (
         <div className="container mx-auto py-10" >
@@ -29,7 +22,6 @@ const HomeService = () => {
                homeServices.map(homeService => <HomeServiceShow
                 key={homeService._id}
                 homeService={homeService}
-                // goServicePageHandle={goServicePageHandle()}
                ></HomeServiceShow>)
             }
             </div>
