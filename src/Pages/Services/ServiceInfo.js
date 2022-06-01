@@ -12,7 +12,6 @@ const ServiceInfo = ({service}) => {
                     </div>
 
                     <div>
-                        {classId}
                         <h1 className="text-2xl font-bold">{name}</h1>
                         <p className="py-3">{short_description}</p>
                         <h1 className="text-xl font-bold pb-2 ml-10"> Price: {price} TK</h1>
